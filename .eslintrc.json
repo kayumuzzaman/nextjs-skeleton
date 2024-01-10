@@ -16,7 +16,7 @@
     ],
     "sort-imports": ["warn", { "ignoreCase": true, "ignoreDeclarationSort": true }],
     "import/order": ["warn", { "alphabetize": { "order": "asc", "caseInsensitive": true } }],
-    "no-console": "warn" 
+    "no-console": ["error", { "allow": ["error"] }]
   },
   "root": true
 }
